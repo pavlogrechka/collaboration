@@ -109,7 +109,7 @@ body {
 /* intro styles start*/
 .intro {
   min-height: 100vh;
-  background: url(/jpg/introbg.jpg);
+  background: url(../img/jpg/introbg.jpg);
   background-size: cover;
   padding-top: 263px;
 
@@ -144,7 +144,7 @@ body {
 
 .search-form-field {
   width: 297px;
-  background: transparent url(/svg/Oval.svg) no-repeat left 6px;
+  background: transparent url(../img/svg/Oval.svg) no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #BFC0C5;
