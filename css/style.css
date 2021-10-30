@@ -1,0 +1,207 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/lato-v20-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v20-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/lato-v20-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v20-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+    url('../fonts/lato-v20-latin-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v20-latin-900.woff') format('woff');
+  /* Chrome 6+, Firef ox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* header styles start*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-right: 82px;
+}
+
+.header-item:last-child {
+  margin: 0;
+
+}
+
+.header-link {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  opacity: 0.75;
+}
+
+/* header styles end*/
+/* intro styles start*/
+.intro {
+  min-height: 100vh;
+  background: url(/jpg/introbg.jpg);
+  background-size: cover;
+  padding-top: 263px;
+
+}
+
+.intro-title {
+  max-width: 619px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+
+.intro-subtitle {
+  max-width: 549px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 59px;
+}
+
+.search-form-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form-field {
+  width: 297px;
+  background: transparent url(/svg/Oval.svg) no-repeat left 6px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #BFC0C5;
+  margin-right: 61px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+.search-form-field::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+.search-form-submit {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  background-color: #1B7DFF;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  border: 0;
+
+}
+
+.search-form-submit:hover,
+.search-form-submit:focus,
+.search-form-submit:active {
+  background-color: #0e66da;
+}
+
+/* intro styles end */
+/* benefits styles start */
+.benefits-wrap {
+  max-width: 1262px;
+  max-height: 655px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  position: relative;
+}
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.benefits-cards {
+  height: 30vh;
+}
+
+/*benefits styles end*/
