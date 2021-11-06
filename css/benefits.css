@@ -1,0 +1,49 @@
+.benefits {
+  margin-top: -200px;
+  margin-bottom: 80px;
+  z-index: 11;
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+.benefits h2 {
+  margin-bottom: 120px;
+}
+
+.benefits__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 55px;
+}
+
+.benefits__card {}
+
+
+.card__icon {
+  margin-bottom: 36px;
+}
+
+
+.card__icon svg {}
+
+.card__title {
+  margin-bottom: 29px;
+}
+
+
+.card__text {
+  margin-bottom: 36px;
+  padding-right: 5px;
+}
+
+.card__link {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+
+  color: #006DFE;
+}
+
+.link__text {
+  margin-right: 20px;
+}
